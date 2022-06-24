@@ -23,9 +23,9 @@ s.login(login_email , login_pass)
 
 # SMS config for sending SMS
 # Account SID from twilio.com/console
-account_sid = "AC7b9cdd2243dbea1339a9b2861aa18141"
+account_sid = ""
 # Auth Token from twilio.com/console
-auth_token  = "7200704d1fa1164ef551c9255f3bb294"
+auth_token  = ""
 
 def birthday_msg(name):
     with open('hbd.txt') as f:
