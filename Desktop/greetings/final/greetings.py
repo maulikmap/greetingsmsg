@@ -99,7 +99,7 @@ def send_mrganv_sms(name, mno):
     sms = mrganv_msg(name)
     message = client.messages.create(
         to=mno, 
-        from_="+18573824350",
+        from_="",
         body=sms)
 
     print("SMS sent To: ", mno)
